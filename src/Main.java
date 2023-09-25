@@ -24,8 +24,7 @@ public class Main extends Carrinho {
             switch (opcao) {
                 case 1 -> {
                     // Inserir item ao carrinho
-                    System.out.print("Digite o código do produto: ");
-                    String codigo = scanner.next();
+                    String codigo = Integer.toString(nextCode++); // Gere o código automaticamente
                     System.out.print("Digite a descrição do produto: ");
                     String descricao = scanner.next();
                     scanner.nextLine(); // Consumir a nova linha

@@ -4,6 +4,8 @@ public class Carrinho {
     ArrayList<Item> itens = new ArrayList<>();
     private double descontoTotal = 0;
     private double acrescimoTotal = 0;
+    public static int nextCode = 1;
+
 
     public void inserirItem (String codigo, String descricao, double valor){
         Item item = new Item(codigo, descricao, valor);
