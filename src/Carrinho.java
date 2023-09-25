@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Carrinho {
-    private ArrayList<Item> itens = new ArrayList<>();
+    ArrayList<Item> itens = new ArrayList<>();
     private double descontoTotal = 0;
     private double acrescimoTotal = 0;
 
